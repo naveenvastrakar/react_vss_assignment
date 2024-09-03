@@ -1,0 +1,76 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.head{
+    text-transform: uppercase;
+    font-size: 24px;
+    text-align: center;
+}
+.input-filed label{
+  font-size: 16px;
+  font-weight: 500;
+  text-align: start;
+}
+.input-filed input{
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #333;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 200px;
+  transition: border-color 0.2s ease-in-out;
+}
+.input-filed input:focus {
+  border-color: #aaa;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.divi{
+  display: flex;
+  justify-content: space-around;
+  align-items: end;
+  width: 99%;
+}
+.button-sty{
+  font-size: 16px;
+  color: #eae7e7;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 200px;
+  transition: border-color 0.2s ease-in-out;
+background-color: blueviolet;
+}
+.todoItemsListPrint ul{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.todoItemsListPrint ul{
+  list-style-type: none;
+}
+.emoji-sty {
+  position: relative;
+}
+
+.emoji-picker {
+  display: none; 
+  position: absolute;
+  top: 300px;
+  right:218px;
+}
+
+.emoji-sty:focus + .emoji-picker {
+  display: block;
+}
+
+.emoji {
+  font-size: 18px;
+  cursor: pointer;
+  margin: 5px;
+}
